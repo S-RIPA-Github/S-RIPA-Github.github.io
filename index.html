@@ -249,16 +249,16 @@
                                 <div class="fields">
 									<div class="field half">
 										<label for="name">Name</label>
-										<input type="text" name="name" id="name" value="" />
+										<input type="text" name="name" id="name" value="" required />
 									</div>
 									<div class="field half">
 										<label for="email">Email</label>
-										<input type="email" name="_replyto" id="email" value="" />
+										<input type="email" name="_replyto" id="email" value="" required />
 									</div>
                                     
                                     <div class="field">
 								    <label for="wherelive">I live in:</label>
-								    <select name="town" id="wherelive">
+								    <select name="town" id="wherelive" required>
 								        <option value="">- Choose town -</option>
 								        <option value="Charlestown">Charlestown</option>
 								        <option value="Exeter">Exeter</option>
@@ -273,11 +273,11 @@
                                     </div>
                                     
                                     <div class="field half">
-								        <input type="radio" id="join-member" name="join" checked />
+								        <input type="checkbox" id="join-member" name="join-member" />
 								        <label for="join-member">Member</label>
 								    </div>
 								    <div class="field half">
-								        <input type="radio" id="join-participant" name="join" />
+								        <input type="checkbox" id="join-participant" name="join-participant" />
 								        <label for="join-participant">Participant</label>
 								    </div>
                                     
