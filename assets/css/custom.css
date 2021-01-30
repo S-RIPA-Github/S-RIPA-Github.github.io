@@ -1,0 +1,19 @@
+
+.emph {
+  font-style: oblique;
+}
+
+
+.event-col-middle {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.event-top-line {
+  font-size: 120%;
+	color: #000
+}
+.event-detail {
+  font-size: 90%;
+	color: #666
+}
